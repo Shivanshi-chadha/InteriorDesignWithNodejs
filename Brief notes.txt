@@ -1,0 +1,53 @@
+INTERIOR DESIGN WEBSITE
+
+1. ROUTES
+2. MODELS
+3. VIEWS
+INCLUDES
+(all ejs files)
+
+4. CONTROLLER
+
+6. PUBLIC 
+CSS
+JS
+IMG
+
+
+home.js
+
+
+
+Here interior designs 
+
+1. Navbar should have-
+
+- Home
+- Admin access
+- DEsign
+- Order
+- Contact us
+
+1. mongo db use it for authentication purpose means here login id and password should be matched
+2. Can see the 
+
+
+- User access
+
+1. Can see the designs so have to make the route called as (design.js)
+Should have All the designs, can view that after that from design.js there should be a button that should redirect it into the ORDER.js
+2. ORDER.Js 
+Should book the order that should be displayed by the admin. 
+
+ADMIN should have login button -> After that should redirect to /vieworder page where can see all the orders that are done by the staff or people.
+
+
+
+
+
+
+
+
+
+
+

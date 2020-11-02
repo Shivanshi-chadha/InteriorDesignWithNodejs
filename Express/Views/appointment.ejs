@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" href="/css/appointment.css">
+    </head>
+    <body>
+        <div class="appointt">
+            <br />
+            <h1><center><font color="yellow" size="+4" face="Times, serif">Fix your appointment here..!!</font></center></h1>
+            </div>
+            <div class="back">
+            <div class="form">
+            <form class="register-form" method="POST">
+            <input type="text" placeholder="First Name" name="uname" id="ufirst" autocomplete="off" />
+            <input type="text" placeholder="Last Name" name="lname" id="ulast" autocomplete="off" />
+            <input type="text" placeholder="Address" name="uadd" id="uadd" autocomplete="off"/>
+            <input type="text" placeholder="Phone Number" name="uphone" id="mob" autocomplete="off"/>
+            
+            <br />
+            <div class="custom-select">
+            <select >
+            <option value="1" selected>9:00AM-10:30AM</option>
+            <option value="2">11:00AM-12:30PM</option>
+            <option value="3">2:00PM-3:30PM</option>
+            <option value="4">4:00PM-5:30PM</option>
+            <option value="5">6:30PM-7:30PM</option>
+            </select>
+            </div>
+            <input type="text" placeholder="Email" name="umail" id="mail" autocomplete="off"/>
+            <br />
+            <input type="submit" value="Yes,done" id="sub" />
+            </form>
+            </div>
+            </div>
+    </body>
+</html>

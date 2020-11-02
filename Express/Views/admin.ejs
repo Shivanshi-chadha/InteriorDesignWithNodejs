@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/admin.css">
+        <title><%=title %></title>
+    </head>
+    <body >
+        <header class="main_header">
+            <nav class="main_header_nav">
+                <ul class="main_header_item_list">
+                    <li class="main_headr_item"><a href="/"><b><font size="+1">Home</font></b></a></li>
+                    <li class="main_headr_item"><a href="/admin/contact "><b><font size="+1">Admin</font></b></a></li>
+                    <li class="main_headr_item"><a href="/design"><b><font size="+1">Design</b></font></a></li>
+                    <li class="main_headr_item"><a href="/order"><b><font size="+1">Book Order</font></b></a></li>
+                    <li class="main_headr_item"><a href=" "><b><font size="+1">Contact Us</font></b></a></li>
+                </ul>
+
+           </nav>
+       </header>
+       <div class="welcome">
+           <h1><center><b>Welcome back Admin :) </b></center></h1>
+       </div>
+       <div class="box">
+        <form action="/admin/display" method="POST">
+            Email:<input type="text" name="mail" placeholder="Enter Email..." required><br>
+            Password:<input type="password" name="pass" placeholder="Enter Password..." required><br>
+            <button type="submit">Add</button>
+         </form>
+         </div>
+
+    </body>
+</html>
